@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>pf_localization</name>
+  <name>ekf_localization</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="ubuntu2204@todo.todo">ubuntu2204</maintainer>
-  <license>Apache-2.0</license>
+  <license>Apache License 2.0</license>
 
   <depend>rclpy</depend>
   <depend>sensor_msgs</depend>
@@ -14,7 +14,8 @@
   <depend>yaml</depend>
   <depend>rosbag2_py</depend>
   <depend>rosidl_runtime_py</depend>
-  <depend>skimage</depend>
+  
+
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
